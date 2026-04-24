@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题解 & 随感</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Blog</a>
+            <div class="nav-links">
+                <a href="index.html?type=writeups" class="nav-link" data-type="writeups">题解</a>
+                <a href="index.html?type=essays" class="nav-link" data-type="essays">随感</a>
+                <a href="about.html" class="nav-link">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="hero">
+            <h1 class="hero-title">记录思考，沉淀技术</h1>
+            <p class="hero-subtitle">题解与随感的个人空间</p>
+        </div>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="writeups">题解</button>
+            <button class="filter-btn" data-filter="essays">随感</button>
+        </div>
+
+        <div class="posts-grid" id="posts-container">
+            <!-- 文章列表由 JS 动态生成 -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p> 2026 · 个人博客 · GitHub Pages</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

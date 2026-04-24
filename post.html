@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">文章</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Blog</a>
+            <div class="nav-links">
+                <a href="index.html?type=writeups" class="nav-link">题解</a>
+                <a href="index.html?type=essays" class="nav-link">随感</a>
+                <a href="about.html" class="nav-link">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <article class="article">
+        <div class="article-header">
+            <div class="article-meta">
+                <span class="article-category" id="article-category"></span>
+                <span class="article-date" id="article-date"></span>
+            </div>
+            <h1 class="article-title" id="article-title"></h1>
+            <div class="article-tags" id="article-tags"></div>
+        </div>
+        <div class="article-content" id="article-content">
+            <!-- Markdown 内容渲染到这里 -->
+        </div>
+        <div class="article-nav">
+            <a href="index.html" class="back-link">← 返回首页</a>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <p> 2026 · 个人博客 · GitHub Pages</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/post.js"></script>
+</body>
+</html>
